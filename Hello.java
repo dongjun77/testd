@@ -8,5 +8,8 @@ class Hello
 
 		DeptDAO dDao = new DeptDAO();
 		dDao.insert();
+
+		MemberDAO mDAO = new MemberDAO();
+		mDAO.insert();
 	}
 }
